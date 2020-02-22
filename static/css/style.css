@@ -1,0 +1,244 @@
+body{
+    margin: 0;
+}
+
+hr {
+    margin: 10% 2%;
+}
+
+#endPage {
+    border-color: black;
+    margin-top: 10%;
+}
+
+.column {
+}
+
+.left {
+    float: left;
+    width: 45%;
+}
+
+.right {
+    float: right;
+    width: 55%;
+    min-width: 357px;
+}
+
+#leftColumn {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+#rightColumn {
+    background-color: white;
+    text-align: center;
+}
+
+#profile {
+    margin-top: 20%;
+}
+
+#profile img {
+    max-width: 50%;
+    border-bottom-right-radius: 40%;
+    border-top-left-radius: 40%;
+}
+
+#profile figcaption {
+    font-family: Consolas, sans-serif;
+    font-size: 2em;
+    max-width: 50%;
+    margin-left: 25%;
+}
+
+#leftColumn h3 {
+    font-family: "Source Code Pro", sans-serif;
+    font-size: 0.8em;
+}
+
+.title {
+    margin-top: 10%;
+    font-family: Consolas, sans-serif;
+    font-size: 1.5em;
+    display: inline;
+}
+
+.text {
+    margin-left: 2%;
+}
+
+.content p {
+    text-align: justify;
+    max-width: 50%;
+    margin-left: 25%;
+    margin-top: 2%;
+}
+
+/* Make sure that padding behaves as expected */
+.container * {box-sizing:border-box}
+
+/* Container for skill bars */
+.container {
+    margin-left: 25%;
+    width: 50%; /* Full width */
+    background-color: #ddd; /* Grey background */
+}
+
+.skills {
+    text-align: right; /* Right-align text */
+    padding-right: 20px; /* Add some right padding */
+    line-height: 20px; /* Set the line-height to center the text inside the skill bar, and to expand the height of the container */
+    color: white; /* White text color */
+}
+
+.python {width: 95%; background-color: #7c0f0f;}
+.ml {width: 80%; background-color: #646464;}
+.dl {width: 75%; background-color: #646464;}
+.dataviz {width: 75%; background-color: #646464;}
+.sql {width: 70%; background-color: #878787;}
+.nosql {width: 65%; background-color: #878787;}
+.r {width: 45%; background-color: #b5b5b5;}
+
+.certificate_title{
+    margin-top: 20%;
+}
+
+.personalSkills {
+    list-style-type: none;
+}
+
+.contact {
+    list-style-type: none;
+}
+
+.contact li {
+    margin: 1%;
+}
+
+.contactList i {
+     display: inline;
+ }
+
+.contactList h4 {
+    display: inline;
+    margin-left: 2%;
+}
+
+.contactList a {
+    color: white;
+    text-decoration: none;
+}
+
+.contactList a:hover {
+    color: #2196F3;
+}
+
+.education {
+    margin-top: 15%;
+}
+
+.articles {
+    text-align: left;
+    font-size: 2.5em;
+    margin-left: 10%;
+}
+
+.articles h2 {
+    display: inline;
+    font-family: Consolas, sans-serif;
+    font-size: 1em;
+    margin-left: 1%;
+}
+
+.parts {
+    display: flex;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.partLeft {
+    width: 15%;
+    font-size: 0.4em;
+    color: gray;
+    text-align: center;
+}
+
+.partRigth {
+    width: 85%;
+    font-size: 0.6em;
+}
+
+.partRigth p {
+    font-size: 0.8em;
+    margin: 0 0 2%;
+    max-width: 60%;
+}
+
+.partRigth h5 {
+    margin: 2% 0 0;
+}
+
+.partRigth h6 {
+    margin: 0;
+}
+
+.certificates li {
+    list-style-type: none;
+    margin: 1%;
+    /*margin-left: 20%;*/
+}
+
+.certificates h6 {
+    margin: 3% 20% 0;
+    text-align: left;
+    font-size: 1em;
+    font-family: Impact, sans-serif;
+}
+
+.portfolio {
+    list-style-type: none;
+    font-size: 0.5em;
+    margin-right: 10%;
+    text-align: justify;
+}
+
+.portfolio p {
+    display: inline;
+}
+
+.portfolio .container {
+    margin: 0;
+}
+
+.link_neutro {
+    color: #525dab;
+    text-decoration: none;
+}
+
+@media (max-width: 1190px) {
+    .left {
+        display: block;
+        width: 100%;
+    }
+    .right {
+        width: 100%;
+    }
+
+}
+
+.certificate a {
+    color: white;
+    text-decoration: none;
+}
+
+.certificate a:hover {
+    color: #2196F3;
+}
+
+/*@media (max-width: 646px) {*/
+    /*aside {*/
+        /*height: 2200px;*/
+    /*}*/
+/*}*/
