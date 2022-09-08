@@ -93,13 +93,14 @@ hr {
     color: white; /* White text color */
 }
 
-.python {width: 95%; background-color: #7c0f0f;}
-.ml {width: 80%; background-color: #646464;}
-.dl {width: 75%; background-color: #646464;}
-.dataviz {width: 75%; background-color: #646464;}
-.sql {width: 70%; background-color: #878787;}
-.nosql {width: 65%; background-color: #878787;}
-.r {width: 45%; background-color: #b5b5b5;}
+.python {width: 99%; background-color: #800a0a;}
+.ml {width: 95%; background-color: #6b1717;}
+.mlops {width: 90%; background-color: #701d1d;}
+.sql {width: 85%; background-color: #6b3535;}
+.dl {width: 80%; background-color: #646464;}
+.dataviz {width: 80%; background-color: #646464;}
+.nosql {width: 70%; background-color: #878787;}
+.r {width: 50%; background-color: #b5b5b5;}
 
 .certificate_title{
     margin-top: 20%;
